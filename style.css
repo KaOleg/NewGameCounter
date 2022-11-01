@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+}
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.app {
+    background-color: #4d5dbc;
+    max-width: 400px;
+    border-radius: 20px 0px 20px 0px;
+    overflow: hidden;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button {
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color: #6e7ede;
+    border: none;
+    margin: 5px;
+    font-size: 18px;
+}
+button:hover{
+    background-color: #8f9fff;
+    transform: scale(1.1);
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+.newGame {
+    width: 80%;
+    margin: 0px auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.attemps {
+    background-color: #3c4cab;
+}
+.hint {
+    background-color: #2b3b9a;
+}
+.attemps,
+.hint {
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 20px;
+}
+.header{
+    padding: 20px 30px;
+
+}
+hr{
+    border: solid 2px #6e7ede;
+    border-radius: 5px;
+}
+.wrong{
+    background-color: grey;
+
+}
+button.wrong:hover {
+    background-color: grey;
+    transform: scale(1);
+    transition: 0.0s;
+    cursor: not-allowed;
+}
+.right{
+    background-color: gold;
+    box-shadow: 5px 5px 15px rgba(255, 217, 0, 0.5),-5px -5px 15px rgba(255, 217, 0, 0.5);
+    transform: scale(1.2);
+}
+button.right:hover{
+    background-color: gold;
+    transform: scale(1.2);
+    transition: 0.0s;
+    cursor: not-allowed;
+
+}
